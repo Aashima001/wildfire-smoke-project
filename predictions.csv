@@ -1,0 +1,3 @@
+actual_risk_score,rf_predicted,xgb_predicted,actual_risk_category,rf_category_pred,xgb_category_pred
+0.4085,0.3312,0.3905,High,High,Low
+0.0632,0.1184,0.0833,Low,Low,Low

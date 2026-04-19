@@ -1,0 +1,35 @@
+============================================================
+WILDFIRE & SMOKE COMPASS — ML MODEL RESULTS
+============================================================
+
+DATASET SUMMARY
+  Total incidents:  10
+  Counties covered: 9
+  Features used:    15
+  Date range:       2017 – 2026
+
+CLASSIFICATION — Risk Category (Low / Medium / High)
+----------------------------------------
+  Random Forest accuracy:  1.0000
+  XGBoost accuracy:        0.5000
+
+REGRESSION — Composite Risk Score
+----------------------------------------
+  Random Forest  RMSE: 0.0672  MAE: 0.0662  R²: 0.8487
+  XGBoost        RMSE: 0.0191  MAE: 0.0190  R²: 0.9878
+
+TOP 5 FEATURES (Random Forest)
+----------------------------------------
+  fire_year                           0.2397
+  log_acres_burned                    0.1697
+  month                               0.1498
+  latitude                            0.1400
+  containment_ratio                   0.1100
+
+TOP 5 FEATURES (XGBoost)
+----------------------------------------
+  log_acres_burned                    0.5821
+  containment_ratio                   0.4179
+  aqi_at_incident                     0.0000
+  smoke_severity_at_incident          0.0000
+  vulnerability_score                 0.0000
