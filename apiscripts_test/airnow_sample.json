@@ -1,0 +1,162 @@
+[
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "San Jose",
+    "StateCode": "CA",
+    "Latitude": 37.33,
+    "Longitude": -121.9,
+    "ParameterName": "O3",
+    "AQI": 41,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Santa Clara County (San Jose)"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "San Jose",
+    "StateCode": "CA",
+    "Latitude": 37.33,
+    "Longitude": -121.9,
+    "ParameterName": "PM2.5",
+    "AQI": 47,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Santa Clara County (San Jose)"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Central LA CO",
+    "StateCode": "CA",
+    "Latitude": 34.0663,
+    "Longitude": -118.2266,
+    "ParameterName": "O3",
+    "AQI": 44,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Los Angeles County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Central LA CO",
+    "StateCode": "CA",
+    "Latitude": 34.0663,
+    "Longitude": -118.2266,
+    "ParameterName": "PM2.5",
+    "AQI": 33,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Los Angeles County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Central LA CO",
+    "StateCode": "CA",
+    "Latitude": 34.0663,
+    "Longitude": -118.2266,
+    "ParameterName": "PM10",
+    "AQI": 19,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Los Angeles County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Sacramento",
+    "StateCode": "CA",
+    "Latitude": 38.567,
+    "Longitude": -121.467,
+    "ParameterName": "O3",
+    "AQI": 31,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Sacramento County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Sacramento",
+    "StateCode": "CA",
+    "Latitude": 38.567,
+    "Longitude": -121.467,
+    "ParameterName": "PM2.5",
+    "AQI": 29,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Sacramento County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Fresno",
+    "StateCode": "CA",
+    "Latitude": 36.7806,
+    "Longitude": -119.7929,
+    "ParameterName": "O3",
+    "AQI": 46,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Fresno County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Fresno",
+    "StateCode": "CA",
+    "Latitude": 36.7806,
+    "Longitude": -119.7929,
+    "ParameterName": "PM2.5",
+    "AQI": 19,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Fresno County"
+  },
+  {
+    "DateObserved": "2026-04-14",
+    "HourObserved": 17,
+    "LocalTimeZone": "PST",
+    "ReportingArea": "Fresno",
+    "StateCode": "CA",
+    "Latitude": 36.7806,
+    "Longitude": -119.7929,
+    "ParameterName": "PM10",
+    "AQI": 11,
+    "Category": {
+      "Number": 1,
+      "Name": "Good"
+    },
+    "county_name_sample": "Fresno County"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "station_id": "KSJC",
+    "timestamp": "2026-04-15T01:20:00+00:00",
+    "temperature_c": 15,
+    "humidity_pct": 58.794057173929,
+    "wind_speed_kmh": null,
+    "wind_direction": null,
+    "precipitation_mm": null
+  },
+  {
+    "station_id": "KLAX",
+    "timestamp": "2026-04-15T01:20:00+00:00",
+    "temperature_c": 18,
+    "humidity_pct": 63.624996508331,
+    "wind_speed_kmh": null,
+    "wind_direction": null,
+    "precipitation_mm": null
+  },
+  {
+    "station_id": "KSAC",
+    "timestamp": "2026-04-15T01:20:00+00:00",
+    "temperature_c": 18,
+    "humidity_pct": 48.582347990729,
+    "wind_speed_kmh": 14.832,
+    "wind_direction": 220,
+    "precipitation_mm": null
+  },
+  {
+    "station_id": "KFAT",
+    "timestamp": "2026-04-15T01:20:00+00:00",
+    "temperature_c": 22,
+    "humidity_pct": 35.403619066634,
+    "wind_speed_kmh": 22.212,
+    "wind_direction": 300,
+    "precipitation_mm": null
+  },
+  {
+    "station_id": "KSAN",
+    "timestamp": "2026-04-15T01:20:00+00:00",
+    "temperature_c": 18,
+    "humidity_pct": 67.97370121525,
+    "wind_speed_kmh": 16.668,
+    "wind_direction": 290,
+    "precipitation_mm": null
+  }
+]
