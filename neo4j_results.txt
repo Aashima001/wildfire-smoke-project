@@ -1,0 +1,68 @@
+============================================================
+WILDFIRE & SMOKE COMPASS — NEO4J GRAPH ANALYTICS
+============================================================
+
+GRAPH STRUCTURE
+----------------------------------------
+  Node types:  Wildfire, County, AQIZone, WeatherRegion
+  Edge types:  OCCURRED_IN, IN_AQI_ZONE, AFFECTED_BY_WEATHER,
+               SMOKE_REACHED
+
+PAGERANK RESULTS (most influential nodes)
+----------------------------------------
+  1. Dixie Fire             PageRank: 0.6269  Risk: 0.4216
+  2. Creek Fire             PageRank: 0.4039  Risk: 0.4136
+  3. Caldor Fire            PageRank: 0.3539  Risk: 0.4128
+  4. Camp Fire              PageRank: 0.3375  Risk: 0.4177
+  5. Thomas Fire            PageRank: 0.3350  Risk: 0.4085
+  6. Valley Fire            PageRank: 0.1244  Risk: 0.0855
+  7. Summit Fire            PageRank: 0.1140  Risk: 0.0716
+  8. Ridge Fire             PageRank: 0.1097  Risk: 0.0654
+  9. Ember Fire             PageRank: 0.0774  Risk: 0.0644
+  10. Iona Fire              PageRank: 0.0767  Risk: 0.0632
+
+COMMUNITY DETECTION RESULTS
+----------------------------------------
+
+  Community: High-Risk NorCal Mountains
+  Fires:     Dixie Fire, Camp Fire, Caldor Fire, Creek Fire
+  Counties:  Plumas, Butte, El Dorado, Madera
+  Avg Risk:  0.4170
+  Insight:   Sierra Nevada high-risk cluster — large historical fires
+
+  Community: High-Risk SoCal Coast
+  Fires:     Thomas Fire
+  Counties:  Ventura, Los Angeles
+  Avg Risk:  0.4080
+  Insight:   Southern California coastal fire corridor
+
+  Community: Active Low-Risk Central
+  Fires:     Valley Fire, Summit Fire, Ridge Fire
+  Counties:  Fresno, San Bernardino, Riverside
+  Avg Risk:  0.0740
+  Insight:   Currently active but smaller fires — Central/Inland
+
+  Community: Active Low-Risk LA Basin
+  Fires:     Ember Fire, Iona Fire
+  Counties:  Los Angeles
+  Avg Risk:  0.0640
+  Insight:   Small active fires in Los Angeles Basin
+
+SMOKE PROPAGATION PATHS
+----------------------------------------
+  Dixie Fire             → Butte
+  Dixie Fire             → El Dorado
+  Camp Fire              → Plumas
+  Creek Fire             → Fresno
+  Caldor Fire            → Madera
+  Valley Fire            → Madera
+  Summit Fire            → Riverside
+  Ridge Fire             → San Bernardino
+
+HIGH-RISK SUBGRAPH (fire → county → AQI zone)
+----------------------------------------
+  Dixie Fire             → Plumas               → Northern CA
+  Camp Fire              → Butte                → Northern CA
+  Creek Fire             → Madera               → Central CA
+  Caldor Fire            → El Dorado            → Northern CA
+  Thomas Fire            → Ventura              → Southern CA
